@@ -93,7 +93,7 @@ void ofApp::draw(){
     float chromagramTop = 550;
     
     int col = 0;
-    //draw fft output
+    
     float xinc = horizWidth / fftSize / 13;
     
     
