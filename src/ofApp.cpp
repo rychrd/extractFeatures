@@ -99,7 +99,7 @@ void ofApp::draw(){
     
     for(int i=0; i < fftSize / 2; i++) {
         
-        double height = 30 + (lAudioOut[i]+0.4)*floor(filter.lopass(peakFreq,0.0001)*.8);
+        double height = 30 + (lAudioOut[i]+0.1)*floor(filter.lopass(peakFreq,0.0001)*.8);
     //    cout << (filter.lopass(peakFreq,0.1)) << endl;
         float angle = counter*TWO_PI/512.;
 
